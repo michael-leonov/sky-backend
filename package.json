@@ -1,0 +1,28 @@
+{
+  "name": "sky-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js",
+    "dev": "nodemon --experimental-modules --es-module-specifier-resolution=node src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michael-leonov/sky-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/michael-leonov/sky-backend/issues"
+  },
+  "homepage": "https://github.com/michael-leonov/sky-backend#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  }
+}
